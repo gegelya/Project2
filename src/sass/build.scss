@@ -208,3 +208,183 @@ h1 {
     letter-spacing: 0.78px;
     color: #555555;
 }
+
+.project-container {
+    text-align: center;
+    padding: 30px;
+    background: url(../img/black-iphone-on-black-office-desk-picjumbo-com.png) no-repeat center top/ cover;
+}
+
+.project-header {
+    text-shadow: 0.5px 0.9px 3px rgba(0, 0, 0, 0.27);
+    font-size: 40px;
+    margin: 0 auto;
+    line-height: 1.48;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.project-new-design {
+    text-shadow: 0.5px 0.9px 3px rgba(0, 0, 0, 0.27);
+    font-size: 30px;
+    margin: 0 auto;
+    line-height: 2.11;
+    letter-spacing: 2.1px;
+    color: #ffffff;
+}
+
+.image-project {
+    display: flex;
+    text-align: left;
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+.text-project {
+    font-family: Tahoma;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 1.28px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.btn-project {
+    display: inline-block;
+    margin-top: 35px;
+    border: solid 1px #ffffff;
+    border-radius: 20px;
+    background: rgba(231, 41, 7, 0.3);
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    max-width: 150px;
+    height: 16px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.07;
+    letter-spacing: 0.75px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn-project:hover {
+    background-color: #f1a751;
+    color: rgb(31, 30, 30);
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    background: url(../img/young-woman-working-typing-on-her-laptop-picjumbo-com.png) no-repeat center top/ cover;
+}
+
+.footer-header {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 0.32;
+    letter-spacing: 3.5px;
+    color: #fefefe;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.text-footer-mo-margin {
+    margin: 0;
+}
+
+.footer-text {
+    max-width: 320px;
+    font-size: 13px;
+    line-height: 1.85;
+    letter-spacing: 1.11px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer-follow-us {
+    font-size: 15px;
+    margin-top: 50px;
+    line-height: 1.6;
+    letter-spacing: 1.28px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer-social-media {
+    font-size: 30px;
+}
+
+.footer-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-input-name {
+    display: inline-block;
+    height: 25px;
+    margin-bottom: 15px;
+    border: 1px solid #626262;
+    background-color: #626262;
+}
+
+.footer-input-email {
+    display: inline-block;
+    height: 25px;
+    margin-bottom: 15px;
+    border: 1px solid #626262;
+    background-color: #626262;
+}
+
+.footer-input-message {
+    display: inline-block;
+    height: 60px;
+    margin-bottom: 15px;
+    border: 1px solid #626262;
+    background-color: #626262;
+}
+
+.btn-footer {
+    display: inline-block;
+    margin-top: 35px;
+    border: solid 1px #626262;
+    background: #626262;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    max-width: 150px;
+    height: 16px;
+    font-size: 15px;
+    line-height: 1.07;
+    letter-spacing: 0.75px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn-footer:hover {
+    background-color: #f1a751;
+    color: rgb(31, 30, 30);
+}
+
+.footer-line {
+    position: absolute;
+    padding: 10px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.27)
+}
+
+.hizamo-bottom {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 600;
+}
