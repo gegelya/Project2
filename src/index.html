@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +11,19 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 	<link rel="stylesheet" href="/css/build.css">
 </head>
+
 <body>
 	<header>
+		<!--	<input class="checkbox-imput" type="checkbox">-->
+		<input type="checkbox" id="checkbox1" class="checkbox1 visuallyHidden">
+		<label for="checkbox1">
+			<div class="hamburger hamburger1">
+				<span class="bar bar1"></span>
+				<span class="bar bar2"></span>
+				<span class="bar bar3"></span>
+				<span class="bar bar4"></span>
+			</div>
+		</label>
 		<div class="menu">
 			<ul class="menu-item-general">
 				<li class="menu-item">
@@ -24,25 +36,27 @@
 					<a href="#" class="menu-link">BLOG</a>
 				</li>
 				<li class="menu-item">
-					<a href="#" class="menu-link">PORTFOLIO	</a>
+					<a href="#" class="menu-link">PORTFOLIO </a>
 				</li>
 				<li class="menu-item">
 					<a href="#" class="menu-link">CONTACT US</a>
 				</li>
 			</ul>
-			<div><i class="fas fa-envelope"></i>
+			<div class="header-contacts">
+				<i class="fas fa-envelope"></i>
 				<a class="contact" href="mailto:e-mail@gmal.com">e-mail@gmal.com</a>
-			<i class="fas fa-phone"></i>
-			<a class="contact" href="tel:+380935678943">+380935678943</a>
+				<i class="fas fa-phone"></i>
+				<a class="contact" href="tel:+380935678943">+380935678943</a>
 			</div>
 		</div>
-	</div>
+		</div>
 	</header>
 	<div class="banner">
 		<div class="banner-container">
-				<h1>HIZA<span class="dif-color">MO</span></h1>
-				<p class="banner-text">Welcome to out website</p>
-			<div><a class="btn" href="#">Read More</a>
+			<h1>HIZA<span class="dif-color">MO</span></h1>
+			<p class="banner-text">Welcome to out website</p>
+			<div>
+				<a class="btn" href="#">Read More</a>
 				<a class="btn" href="#">Buy Theme</a>
 			</div>
 		</div>
@@ -51,83 +65,92 @@
 		<div class="image-wrapper">
 			<img class="image-main" src="img/1.png" alt="picture">
 		</div>
-		
+
 		<div class="content-wrapper">
-				<p class="we-love-design">we love design</p>
-				<p class="text-main-top">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea 
-					commodo consequat.
-				</p>
-				<p class="text-main-bottom">
-					Duis aute irure dolor in reprehenderit in voluptate 
-					velit esse cillum dolore eu fugiat nulla pariatur. 
-					Excepteur sint occaecat cupidatat non proident, 
-					sunt in culpa qui officia deserunt mollit anim 
-					id est laborum."
-				</p>
+			<p class="we-love-design">we love design</p>
+			<p class="text-main-top">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+				sed do eiusmod tempor incididunt ut labore et dolore
+				magna aliqua. Ut enim ad minim veniam, quis nostrud
+				exercitation ullamco laboris nisi ut aliquip ex ea
+				commodo consequat.
+			</p>
+			<p class="text-main-bottom">
+				Duis aute irure dolor in reprehenderit in voluptate
+				velit esse cillum dolore eu fugiat nulla pariatur.
+				Excepteur sint occaecat cupidatat non proident,
+				sunt in culpa qui officia deserunt mollit anim
+				id est laborum."
+			</p>
 			<hr class="horizontal-line">
 		</div>
 	</div>
 	<div class="services-container">
 		<div class="service">
-				<img class="image-services" src="img/Cup.png" alt="picture">
-				<p class="services-header">LOREM IPSUM DOSET</p>
-				<p class="services-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed </p>
+			<img class="image-services" src="img/Cup.png" alt="picture">
+			<p class="services-header">LOREM IPSUM DOSET</p>
+			<p class="services-text">"Lorem ipsum dolor sit amet, 
+				consectetur adipiscing elit, sed </p>
 		</div>
 		<div class="service">
-				<img class="image-services" src="img/Computer.png" alt="picture">
-				<p class="services-header">LOREM IPSUM DOSET</p>
-				<p class="services-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed </p>
+			<img class="image-services" src="img/Computer.png" alt="picture">
+			<p class="services-header">LOREM IPSUM DOSET</p>
+			<p class="services-text">"Lorem ipsum dolor sit amet, consectetur 
+				adipiscing elit, sed </p>
 		</div>
 		<div class="service">
-				<img class="image-services" src="img/Box.png" alt="picture">
-				<p class="services-header">LOREM IPSUM DOSET</p>
-				<p class="services-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed </p>
+			<img class="image-services" src="img/Box.png" alt="picture">
+			<p class="services-header">LOREM IPSUM DOSET</p>
+			<p class="services-text">"Lorem ipsum dolor sit amet, consectetur 
+				adipiscing elit, sed </p>
 		</div>
 	</div>
 	<div class="project-container">
 		<p class="project-header">latest project</p>
 		<p class="project-new-design">web design</p>
 		<div class="image-project">
-			<img src="img/computer.png" alt="computer">
+			<img class="picture-project" src="img/computer1.png" alt="computer">
 			<div class="text-project">
 				<p>"Lorem ipsum dolor sit amet, c
-					onsectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt 
+					onsectetur adipiscing elit,
+					sed do eiusmod tempor incididunt
 					ut labore et dolore magna aliqua</p>
-					<a class="btn-project" href="#">Buy Now</a>
+				<a class="btn-project" href="#">Buy Now</a>
 			</div>
 		</div>
 	</div>
-<div class="footer">
+	<div class="footer">
 		<p class="footer-header">contact</p>
-	<div class="footer-wrapper">
-		<div class="footer-text">
-	<p class="text-footer-mo-margin">"Lorem ipsum dolor sit amet, 
-		consectetur adipiscing elit, 
-		sed do eiusmod tempor incididunt 
-		ut labore et dolore magna aliqua
-	</p>
-		<p class="footer-follow-us">Follow Us</p>
-		<div class="footer-social-media">
-				<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-				<a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-				<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
-				<a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube-square"></i></a>
+		<div class="footer-wrapper">
+			<div class="footer-text">
+				<p class="text-footer-mo-margin">"Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit,
+					sed do eiusmod tempor incididunt
+					ut labore et dolore magna aliqua
+				</p>
+				<p class="footer-follow-us">Follow Us</p>
+				<div class="footer-social-media">
+					<a href="https://www.facebook.com/" target="_blank">
+						<i class="fab fa-facebook-square"></i>
+					</a>
+					<a href="https://www.linkedin.com" target="_blank">
+						<i class="fab fa-linkedin"></i></a>
+					<a href="https://twitter.com/" target="_blank">
+						<i class="fab fa-twitter-square"></i></a>
+					<a href="https://youtube.com/" target="_blank">
+						<i class="fab fa-youtube-square"></i></a>
+				</div>
+			</div>
+			<div class="footer-input">
+				<input placeholder="NAME" class="footer-input-name" type="text" name="Name" id="1" size="35">
+				<input placeholder="E-MAIL" class="footer-input-email" type="text" name="Email" id="2">
+				<textarea class="footer-input-message" rows="2" cols="45"></textarea>
+				<a class="btn-footer" href="#">SUBMIT</a>
+			</div>
 		</div>
-		</div>
-		<div class="footer-input">
-			<input placeholder="NAME" class="footer-input-name" type="text" name="Name" id="1" size="35">
-			<input placeholder="E-MAIL" class="footer-input-email" type="text" name="Email" id="2">
-			<textarea class="footer-input-message" rows="2" cols="45"></textarea>
-			<a class="btn-footer" href="#">SUBMIT</a>
+		<div class="footer-line">
+			<p class="hizamo-bottom">HIZA<span class="dif-color">MO</span></p>
 		</div>
 	</div>
-	<div class="footer-line">
-		<p class="hizamo-bottom">HIZA<span class="dif-color">MO</span></p>
-	</div>
-</div>
 </body>
+
 </html>

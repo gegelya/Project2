@@ -19,6 +19,10 @@ header {
     background-color: rgba(0, 0, 0, 0.27)
 }
 
+.checkbox1 {
+    display: none;
+}
+
 .menu {
     display: flex;
     align-items: center;
@@ -183,7 +187,7 @@ h1 {
 
 .horizontal-line {
     margin-top: 40px;
-	width: 350px;
+	width: 70%;
 	size: 2px;
 	border-color: #bebdbd;
 }
@@ -315,6 +319,7 @@ h1 {
 
 .text-footer-mo-margin {
     margin: 0;
+    padding-right: 10px;
 }
 
 .footer-text {
@@ -416,3 +421,221 @@ input::placeholder {
     font-size: 35px;
     font-weight: 600;
 }
+
+@media screen and (max-width: 800px) {
+
+    .header-contacts {
+        display: none;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+    .image-wrapper {
+        margin-left: 20px;
+    }
+    .text-main-top {
+        font-size: 12px;
+        max-width: 500px;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-right: 50px;
+        line-height: 1.33;
+        letter-spacing: 0.3px;
+        text-align: left;
+        color: #555555;
+    }
+
+    .text-main-bottom {
+        font-size: 12px;
+        max-width: 500px;
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-right: 50px;
+        line-height: 1.33;
+        letter-spacing: 0.3px;
+        text-align: left;
+        color: #555555;
+    }
+
+    .service {
+        margin-bottom: 30px;
+    }
+
+    .image-project {
+        display: block;
+        text-align: center;
+    }
+
+    .text-project{
+        text-align: center;
+    }
+
+    .picture-project {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .image-main {
+        display: none;
+    }
+
+    .main-container {
+        display: block;
+    }
+
+    .content-wrapper {
+        text-align: center;
+    }
+
+    .we-love-design {
+        margin-left: 0;
+    }
+
+    .text-main-top {
+       
+        text-align: center;
+    }
+
+    .text-main-bottom {
+        
+        text-align: center;
+    }
+
+    .footer-wrapper {
+        display: block;
+    }
+
+    .footer-text {
+        display: contents;
+        text-align: center;
+        width: auto;
+    }
+
+    .footer-follow-us {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+    .hamburger{
+        display: block;
+    }
+
+    .text-main-bottom {
+        margin: 50px 15px 15px 15px;
+    }
+
+    .text-main-top {
+        margin: 50px 15px 15px 15px;
+    }
+
+
+    .menu-item-general{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .menu {
+        text-align: center;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 600ms;
+    }
+
+    input[type="checkbox"]:checked ~ * {
+        max-height: 490px;
+    }
+
+    .menu-item {
+        margin: 0;
+    }
+
+    .hamburger {
+        visibility: visible;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        width: 30px;
+        height: 30px;
+        position: relative;
+    }
+
+    .btn-footer {
+        text-align: center;
+    }
+
+    /*Hamburger*/
+    .visuallyHidden {
+        position: absolute; 
+        overflow: hidden;
+        clip: rect(0 0 0 0); 
+        height: 1px; width: 1px; 
+        margin: -1px; padding: 0; border: 0; 
+    }
+
+    .hamburger {
+        position: relative;
+        transform: scale(0.6);
+    }
+
+    .hamburger .bar {
+        padding: 0;
+        width: 30px;
+        height: 4px;
+        background-color: #bebdbd;
+        display: block;
+        border-radius: 4px;
+        transition: all 0.4s ease-in-out;
+        position: absolute; 
+    }
+
+    .bar1 {
+        top: 0;
+    }
+
+    .bar2,
+    .bar3 {
+        top: 13px;
+    }
+
+    .bar3 {
+        right: 0;
+    }
+
+    .bar4 {
+        bottom: 0;
+    }
+
+    /* HAMBURGER 1 */
+    .checkbox1:checked + label > .hamburger1 > .bar1{
+        transform: rotate(45deg);
+        transform-origin: 5%;
+        width: 41px
+    }
+
+    .checkbox1:checked + label > .hamburger1 > .bar2 {
+        transform: translateX(-40px);
+        background-color: transparent;
+    }
+
+    .checkbox1:checked + label > .hamburger1 > .bar3 {
+        transform: translateX(40px);
+        background-color: transparent;
+    }
+
+    .checkbox1:checked + label > .hamburger1 > .bar4 {
+        transform-origin: 5%;
+        transform: rotate(-45deg);
+        width: 41px;
+    }
+
+}
+
